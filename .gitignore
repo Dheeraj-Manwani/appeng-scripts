@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+
+# Yarn lock files (optional: if using Yarn only, keep this and ignore package-lock.json)
+package-lock.json
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by testing tools
+coverage/
+
+# Output of `npm pack`
+*.tgz
+
+# Mac and Linux system files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Database files or sensitive SQL dumps
+*.sqlite
+*.db
+*.sql
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build or dist directories (if you compile or transpile)
+dist/
+build/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: Ignore iteration output (if generated or cached)
+src/iteration/*/output/
+src/iteration/*/logs/
